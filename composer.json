@@ -1,0 +1,34 @@
+{
+  "name": "gepur-it/datetime_6_doctrine_type",
+  "type": "library",
+  "license": "MIT",
+  "version": "5.0.0",
+  "authors": [
+    {
+      "name": "Viktor Pavlov",
+      "email": "zogxray@gmail.com"
+    }
+  ],
+  "description": "Gepur ERP datetime(6) doctrine type",
+  "keywords": [
+      "datetime",
+      "doctrine",
+      "symfony",
+      "type"
+  ],
+  "homepage": "https://github.com/gepur-it/datetime_6_doctrine_type",
+  "require": {
+    "php": "^7.",
+    "doctrine/dbal": ">=2.5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "GepurIt\\Datetime6Type\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "": "Tests"
+    }
+  }
+}
