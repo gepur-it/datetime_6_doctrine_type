@@ -2,7 +2,7 @@
   "name": "gepur-it/datetime_6_doctrine_type",
   "type": "library",
   "license": "MIT",
-  "version": "5.0.0",
+  "version": "5.1.0",
   "authors": [
     {
       "name": "Viktor Pavlov",
@@ -18,17 +18,12 @@
   ],
   "homepage": "https://github.com/gepur-it/datetime_6_doctrine_type",
   "require": {
-    "php": "^7.",
+    "php": ">=7.1",
     "doctrine/dbal": ">=2.5.4"
   },
   "autoload": {
     "psr-4": {
       "GepurIt\\Datetime6Type\\": "src"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "": "Tests"
     }
   }
 }
